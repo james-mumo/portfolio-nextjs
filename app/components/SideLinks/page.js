@@ -10,7 +10,7 @@ const SideLinks = () => {
   return (
     <div className="container flex flex-row justify-between bottom-0 border w-[100vw] mr-0">
       <div className="leftSpan flex flex-col border">
-
+ghg
       </div>
       <div className="rightSpan">
         <a href="mailto:mumojames98@gmail.com" className="mailTo">
