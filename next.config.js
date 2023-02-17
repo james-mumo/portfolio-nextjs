@@ -1,8 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+module.exports = {
   experimental: {
     appDir: true,
   },
+  env: {
+    domains: ["/api.github.com/users"],
+  },
+  images: {
+    domains: [
+      "cdn.hashnode.com",
+      "avatars.githubusercontent.com",
+      "res.cloudinary.com",
+    ],
+  },
 }
-
-module.exports = nextConfig

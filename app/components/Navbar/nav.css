@@ -1,0 +1,40 @@
+body {
+  counter-reset: item;
+}
+
+.blueColor {
+  border: 1px solid rgb(6, 147, 227);
+  border-radius: 50%;
+}
+
+.navItems {
+  font-size: 0.85rem;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+li {
+  margin-right: 35px;
+}
+li::before {
+  counter-increment: item;
+  content: "0" counter(item) ".";
+  margin-right: 5px;
+  color: rgb(6, 147, 227);
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+li::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  position: relative;
+  top: 0.2em;
+  background-color: rgb(6, 147, 227);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  opacity: 0.5;
+}
