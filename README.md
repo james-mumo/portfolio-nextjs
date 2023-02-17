@@ -1,3 +1,6 @@
+### it's hosted on
+ Vercel Login with Github
+
 ### API'S Used
 
 https://api.github.com/users/james-mumo
