@@ -12,6 +12,7 @@ const SideLinks = () => {
       <div className="leftSpan flex flex-col border">
       <FontAwesomeIcon icon="fa-brands fa-github" />
       </div>
+      
       <div className="rightSpan">
         <a href="mailto:mumojames98@gmail.com" className="mailTo">
           mumojames98@gmail.com
